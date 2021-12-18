@@ -13,8 +13,9 @@ def individual_func(string):
 
 
 if __name__ == "__main__":
-    replacer = individual_func("Уважаемый %F%, %N%! "
-                               "Вы делаете работу по замыканиям функций.")
+    replacer = individual_func(
+        "Уважаемый %F%, %N%! Вы делаете работу по замыканиям функций."
+    )
     print(replacer('Vladimir', 'Shalnev'))
     print(replacer('Dinis', 'Proverkovich'))
     replacer = individual_func("Уважаемый %F%, %N%!")
